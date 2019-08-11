@@ -3,7 +3,7 @@
 <!-- Add code here to link to the post's category. -->
 
 <h3>Category: <%= link_to @post.category.name, category_path
-#
+                 #the if statment checks if post has been associated with category 
 (@post.category) if @post.category %></h3>
 
 <p><%= @post.description %></p>
